@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2406151DF17750001E9954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2406141DF17750001E9954 /* main.m */; };
+		5E2406181DF17750001E9954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2406171DF17750001E9954 /* AppDelegate.m */; };
+		5E24061B1DF17750001E9954 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24061A1DF17750001E9954 /* ViewController.m */; };
+		5E24061E1DF17750001E9954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E24061C1DF17750001E9954 /* Main.storyboard */; };
+		5E2406201DF17750001E9954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E24061F1DF17750001E9954 /* Assets.xcassets */; };
+		5E2406231DF17750001E9954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2406211DF17750001E9954 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E2406101DF17750001E9954 /* kaifa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaifa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2406141DF17750001E9954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E2406161DF17750001E9954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E2406171DF17750001E9954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E2406191DF17750001E9954 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E24061A1DF17750001E9954 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E24061D1DF17750001E9954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E24061F1DF17750001E9954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E2406221DF17750001E9954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E2406241DF17750001E9954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E24060D1DF17750001E9954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E2406071DF17750001E9954 = {
+			isa = PBXGroup;
+			children = (
+				5E2406121DF17750001E9954 /* kaifa */,
+				5E2406111DF17750001E9954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E2406111DF17750001E9954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E2406101DF17750001E9954 /* kaifa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E2406121DF17750001E9954 /* kaifa */ = {
+			isa = PBXGroup;
+			children = (
+				5E2406161DF17750001E9954 /* AppDelegate.h */,
+				5E2406171DF17750001E9954 /* AppDelegate.m */,
+				5E2406191DF17750001E9954 /* ViewController.h */,
+				5E24061A1DF17750001E9954 /* ViewController.m */,
+				5E24061C1DF17750001E9954 /* Main.storyboard */,
+				5E24061F1DF17750001E9954 /* Assets.xcassets */,
+				5E2406211DF17750001E9954 /* LaunchScreen.storyboard */,
+				5E2406241DF17750001E9954 /* Info.plist */,
+				5E2406131DF17750001E9954 /* Supporting Files */,
+			);
+			path = kaifa;
+			sourceTree = "<group>";
+		};
+		5E2406131DF17750001E9954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E2406141DF17750001E9954 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E24060F1DF17750001E9954 /* kaifa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2406271DF17750001E9954 /* Build configuration list for PBXNativeTarget "kaifa" */;
+			buildPhases = (
+				5E24060C1DF17750001E9954 /* Sources */,
+				5E24060D1DF17750001E9954 /* Frameworks */,
+				5E24060E1DF17750001E9954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kaifa;
+			productName = kaifa;
+			productReference = 5E2406101DF17750001E9954 /* kaifa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E2406081DF17750001E9954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = liangshuang;
+				TargetAttributes = {
+					5E24060F1DF17750001E9954 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6TL464X3HC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E24060B1DF17750001E9954 /* Build configuration list for PBXProject "kaifa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E2406071DF17750001E9954;
+			productRefGroup = 5E2406111DF17750001E9954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E24060F1DF17750001E9954 /* kaifa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E24060E1DF17750001E9954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2406231DF17750001E9954 /* LaunchScreen.storyboard in Resources */,
+				5E2406201DF17750001E9954 /* Assets.xcassets in Resources */,
+				5E24061E1DF17750001E9954 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E24060C1DF17750001E9954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E24061B1DF17750001E9954 /* ViewController.m in Sources */,
+				5E2406181DF17750001E9954 /* AppDelegate.m in Sources */,
+				5E2406151DF17750001E9954 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E24061C1DF17750001E9954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E24061D1DF17750001E9954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E2406211DF17750001E9954 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2406221DF17750001E9954 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E2406251DF17750001E9954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E2406261DF17750001E9954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E2406281DF17750001E9954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TL464X3HC;
+				INFOPLIST_FILE = kaifa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.kaifa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E2406291DF17750001E9954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TL464X3HC;
+				INFOPLIST_FILE = kaifa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.kaifa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E24060B1DF17750001E9954 /* Build configuration list for PBXProject "kaifa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2406251DF17750001E9954 /* Debug */,
+				5E2406261DF17750001E9954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2406271DF17750001E9954 /* Build configuration list for PBXNativeTarget "kaifa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2406281DF17750001E9954 /* Debug */,
+				5E2406291DF17750001E9954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E2406081DF17750001E9954 /* Project object */;
+}
